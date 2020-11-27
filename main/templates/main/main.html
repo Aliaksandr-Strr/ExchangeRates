@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="ml-2">Для скачивания актуальных курсов перейдите по ссылке ниже:</div>
+    <a class="btn btn-primary btn-lg" href="{% url 'download' %}">Скачать</a>
+    <div class="ml-2">Для просмотра актуального АПИ перейдите по ссылке ниже</div>
+    <a class="btn btn-primary btn-lg" href="/api/" class="text-primary">АПИ</a>
+
+{% endblock %}
